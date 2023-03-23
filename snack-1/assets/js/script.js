@@ -69,7 +69,7 @@ const autoDiesel = automobili.filter((auto) => {
 
 //creo l'array per le restanti alimentazioni
 const autoAltreAlimentazioni = automobili.filter((auto) => {
-    if (auto.alimentazione != 'benzina'&& auto.alimentazione != 'diesel') {
+    if (auto.alimentazione != 'benzina' && auto.alimentazione != 'diesel') {
         return true
     }
 })
